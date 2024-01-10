@@ -1,0 +1,181 @@
+.a{
+    height:500;
+    width: 600;
+    background-color: aqua;
+}
+.b{
+    height:100;
+    width:600;
+    background-color:blue;
+}
+.c{
+    height:100;
+    width:100;
+    background-color:blueviolet;
+    float: inline-start
+}
+.d{
+    height:100;
+    width:100;
+    background-color:green ;
+    float: right;
+}
+.e{
+    height:50;
+    width: 100;
+    background-color: yellow;
+}
+.f{
+    height:50;
+    width: 100;
+    background-color: brown;
+}
+.g{
+    height: 50;
+    width: 50;
+    background-color:chartreuse ;
+    float: inline-start;
+}
+.h{
+    height: 50;
+    width: 50;
+    background-color: red;
+    float:right;
+}
+.i{
+    height:400 ;
+    width: 100;
+    background-color: crimson;
+    float:left;
+}
+.j{
+    height: 300;
+    width: 100;
+    background-color: pink;
+    float:inline-start;
+}
+.k{
+    height: 100;
+    width: 100;
+    background-color:darkgreen;
+    float: inline-end;
+}
+.l{
+    height: 100;
+    width: 50;
+    background-color: darkred;
+    float:inline-start;
+}
+.m{
+    height: 100;
+    width: 50;
+    background-color: deeppink;
+    float: inline-end;
+}
+.n{
+    height: 100;
+    width: 500;
+    background-color:dodgerblue;
+    float: right;
+}
+.o{
+    height: 300;
+    width: 100;
+    background-color:darksalmon;
+    float: left;
+}
+.p{
+    height: 200;
+    width: 100;
+    background-color: dimgrey;
+}
+.q{
+    height: 200;
+    width: 50;
+    background-color: chocolate;
+    float: left;
+}
+.r{
+    height: 200;
+    width: 50;
+    background-color: darkslateblue;
+    float:right;
+}
+.s{
+    height:300;
+    width: 100;
+    background-color: green;
+    float: left;
+}
+.t{
+    height: 100;
+    width: 300;
+    background-color: indigo;
+    float: left;
+}
+.u{
+    height: 200;
+    width: 100;
+    background-color: fuchsia;
+    float: left;
+}
+.v{
+    height: 100;
+    width: 100;
+    background-color: red;
+    float: inline-start;
+}
+.w{
+    height: 100;
+    width: 100;
+    background-color: yellowgreen;
+    float:inline-end;
+}
+.x{
+    height: 100;
+    width: 50;
+    background-color: coral;
+    float: left;
+}
+.y{
+    height: 100;
+    width: 50;
+    background-color: purple;
+    float: right;
+}
+.z{
+    height: 200;
+    width: 100;
+    background-color:lawngreen ;
+    float: left;
+}
+.a1{
+    height: 200;
+    width: 100;
+    background-color: lightblue;
+    float: right;
+}
+.b1{
+    height: 100;
+    width: 100;
+    background-color: blue;
+    float: inline-start;
+}
+.c1{
+    height: 100;
+    width: 100;
+    background-color: darkorchid;
+    float: inline-end;
+}
+.d1{
+    height: 100;
+    width: 50;
+    background-color: cornflowerblue;
+    float:left;
+}
+.e1{
+    height: 100;
+    width: 50;
+    background-color: forestgreen;
+    float: right;
+}

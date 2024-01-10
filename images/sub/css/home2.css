@@ -1,0 +1,90 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+.a
+{
+    width: 100%;
+    height: 40%;
+}
+.b
+{
+    width: 100%;
+    height: 60%;
+    background-color: skyblue;
+
+}
+.b1
+{
+    width:15%;
+    height:90%;
+    /* outline: 2px solid black; */
+    float: left;
+    padding: 20px;
+    position: relative;
+    left:160px;
+    bottom: 100px;
+    background-color: white;
+   box-shadow: 3px 3px 5px rgb(194, 193, 193);
+}
+.b2
+{
+    width:15%;
+    height:90%;
+    /* outline: 2px solid black; */
+    float: left;
+    padding: 20px;
+    position: relative;
+    left:190px;
+    bottom: 150px;
+    background-color: white;
+   box-shadow: 3px 3px 5px rgb(194, 193, 193);
+}
+.b3
+{
+    width:15%;
+    height:90%;
+    /* outline: 2px solid black; */
+    float: left;
+    padding: 20px;
+    position: relative;
+    left:220px;
+    bottom: 100px;
+    background-color: white;
+   box-shadow: 3px 3px 5px rgb(194, 193, 193);
+}
+.b4
+{
+    width:15%;
+    height:90%;
+    /* outline: 2px solid black; */
+    float: left;
+    padding: 20px;
+    position: relative;
+    left:250px;
+    bottom: 150px;
+    background-color: white;
+   box-shadow: 3px 3px 5px rgb(194, 193, 193);
+}
+.c
+{
+    width: 80px;
+    height: 60px;
+    border-radius: 50px;
+    background-color: red;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+.d
+{
+   margin-top: 30px;
+   line-height: 30px;
+   color: grey;
+}
+.d1
+{
+    margin-top: 30px;
+    letter-spacing: 3px;
+    text-decoration: underline;
+}

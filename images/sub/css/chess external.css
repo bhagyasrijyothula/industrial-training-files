@@ -1,0 +1,15 @@
+           .a{
+                height: 600; 
+                width:600;
+                border: 4px solid black;
+                background-color: white;
+            }
+            h2{
+                color: green;
+            }
+            h1{
+                text-shadow: 4px 4px 6px green;
+            }
+            .b{
+                background-color: green;
+            }

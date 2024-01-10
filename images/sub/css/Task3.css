@@ -1,0 +1,256 @@
+.a{
+    height: 120%;
+    width: 100%;
+    background-color: whitesmoke;
+    
+}
+.t{
+    text-align: center;
+    color: black;
+    font-size: 30px;
+}
+.a1{
+    height: 350px;
+    width: 350px;
+    background-color: white;
+    position: relative;
+    left: 340px;
+    border-radius:25px;
+}
+.a2{
+    height: 50px;
+    width: 350px;
+    background-color: deeppink;
+}
+.a3{
+    height: 100px;
+    width: 100px;
+    background-color: deeppink;
+    border-radius: 55px;
+    position: relative;
+    top: 80px;
+    left: 30px;
+}
+.a4{
+    height: 150;
+    width: 300px;
+    background-color: white;
+    position: relative;
+    top: 50px;
+    left: 20px;
+}
+.s{
+    width: 30px;
+    height: 30px;
+    background-color: deeppink;
+    position: relative;
+    top: 25px;
+    left:25px;
+}
+.b1{
+    height: 350px;
+    width: 350px;
+    background-color: white;
+    position: relative;
+    left: 340px;
+    top: 100px;
+    border-radius:25px;
+}
+.b2{
+    height: 50px;
+    width: 350px;
+    background-color: yellow;
+}
+.b3{
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    border-radius: 55px;
+    position: relative;
+    top: 80px;
+    left: 30px;
+}
+.b4{
+    height: 150;
+    width: 300px;
+    background-color: white;
+    position: relative;
+    top: 50px;
+    left: 20px;
+}
+.k{
+    width: 30px;
+    height: 30px;
+    background-color: yellow;
+    position: relative;
+    top: 25px;
+    left:25px;
+}
+.c1{
+    height: 350px;
+    width: 350px;
+    background-color: white;
+    position: relative;
+    left: 790px;
+    bottom: 700px;
+    border-radius:25px;
+}
+.c2{
+    height: 50px;
+    width: 350px;
+    background-color: lightblue;
+}
+.c3{
+    height: 100px;
+    width: 100px;
+    background-color:lightblue;
+    border-radius: 55px;
+    position: relative;
+    top: 80px;
+    left: 30px;
+}
+.c4{
+    height: 150;
+    width: 300px;
+    background-color: white;
+    position: relative;
+    top: 50px;
+    left: 20px;
+}
+.l{
+    width: 30px;
+    height: 30px;
+    background-color: lightblue;
+    position: relative;
+    top: 25px;
+    left:25px;
+}
+.d1{
+    height: 350px;
+    width: 350px;
+    background-color: white;
+    position: relative;
+    left: 790px;
+    bottom: 600px;
+    border-radius:25px;
+}
+.d2{
+    height: 50px;
+    width: 350px;
+    background-color: violet;
+}
+.d3{
+    height: 100px;
+    width: 100px;
+    background-color:violet;
+    border-radius: 55px;
+    position: relative;
+    top: 80px;
+    left: 30px;
+}
+.d4{
+    height: 150;
+    width: 300px;
+    background-color: white;
+    position: relative;
+    top: 50px;
+    left: 20px;
+}
+.u{
+    width: 30px;
+    height: 30px;
+    background-color: violet;
+    position: relative;
+    top: 25px;
+    left:25px;
+}
+
+
+.e1{
+    height: 350px;
+    width: 350px;
+    background-color: white;
+    position: relative;
+    left: 1250px;
+    bottom: 1400;
+    border-radius:25px;
+}
+.e2{
+    height: 50px;
+    width: 350px;
+    background-color: green;
+}
+.e3{
+    height: 100px;
+    width: 100px;
+    background-color:green;
+    border-radius: 55px;
+    position: relative;
+    top: 80px;
+    left: 30px;
+}
+.e4{
+    height: 150;
+    width: 300px;
+    background-color: white;
+    position: relative;
+    top: 50px;
+    left: 20px;
+}
+.m{
+    width: 30px;
+    height: 30px;
+    background-color: green;
+    position: relative;
+    top: 25px;
+    left:25px;
+}
+.f1{
+    height: 350px;
+    width: 350px;
+    background-color: white;
+    position: relative;
+    left: 1250px;
+    bottom: 1300;
+    border-radius:25px;
+}
+.f2{
+    height: 50px;
+    width: 350px;
+    background-color: pink;
+}
+.f3{
+    height: 100px;
+    width: 100px;
+    background-color:pink;
+    border-radius: 55px;
+    position: relative;
+    top: 80px;
+    left: 30px;
+}
+.f4{
+    height: 150;
+    width: 300px;
+    background-color: white;
+    position: relative;
+    top: 50px;
+    left: 20px;
+}
+.r{
+    width: 30px;
+    height: 30px;
+    background-color: pink;
+    position: relative;
+    top: 25px;
+    left:25px;
+}
+.button{
+    height: 50px;
+    width:90px;
+    background-color: deeppink;
+    color: white;
+    border-radius: 10px;
+    position: relative;
+    bottom: 1300px;
+    left: 900px;
+}
