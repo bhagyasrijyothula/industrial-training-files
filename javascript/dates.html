@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dates in js</title>
+</head>
+<body>
+    <h1>Dates in javascript</h1>
+    <script>
+        const d = new Date();
+        document.write(d+"<br>");
+        document.write("current year is:"+d.getFullYear()+"<br>");
+        document.write("current month is:"+(d.getMonth()+1)+"<br>");
+        document.write("current day is:"+d.getDay()+"<br>");
+        document.write("current date is:"+d.getDate()+"<br>");
+        document.write("current hour is:"+d.getHours()+"<br>");
+        document.write("current minute is:"+d.getMinutes()+"<br>");
+        document.write("current Seconds is:"+d.getSeconds()+"<br>");
+        const weekday=["Sunday","Monday","Tuesady","Wednesday","Thursday","Friday","Saturday"];
+        let day= weekday[d.getDay()];
+        document.write("Current Day is:"+day+"<br>");
+        const months=["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "Decembe"];
+        let month= months[d.getMonth()];
+        document.write("Current Month is:"+month+"<br>");
+
+    </script>
+</body>
+</html>

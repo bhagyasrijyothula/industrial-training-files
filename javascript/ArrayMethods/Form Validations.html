@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .a{
+            width:400px;
+            height:700px;
+            border:1px solid white;
+            /* margin-top: 100px;
+            margin-left: 400px; */
+            box-shadow: 1px 1px 30px rgb(182, 178, 178);
+            border-radius: 20px;
+            text-align: left;
+        }
+        label{
+            margin-left: 20px;
+        }
+        input{
+            margin-left: 20px;
+            width:320px;
+            border-radius: 20px;
+            height:20px;
+            padding: 10px;
+        }
+        button{
+            margin-left: 30px;
+            width:350px;
+            height: 30px;
+            background-color: green;
+            border-radius: 20px;
+            color: white;
+            border: none;
+            padding: 10px;
+        }
+        p{
+            margin-left: 30px;
+        }
+    </style>
+</head>
+<body>
+    <center><div class="a">
+        <center><h1>Form Validation</h1></center><br>
+        <label><b>Name(0-50 Characters)</b></label><br><br>
+        <input type="text" id="h1"><br>
+        <p id="h"></p>
+        <label><b>Email</b></label><br><br>
+        <input type="email" id="k1"><br>
+        <p id="k"></p>
+        <label><b>Phone Number(10 digits)</b></label><br><br>
+        <input type="number" id="i1"><br>
+        <p id="i"></p>
+        <label for="password"><b>Password</b></label>
+        <input type="password" id="j1">
+        <p id="j" style="color: red;"></p>
+        <button type="submit" onclick="fun()">Submit</button>
+    </div></center>
+    <script>
+       function fun(){
+        let h2=document.getElementById("h1").value
+        // console.log(h2)
+        if(h2==""){
+            document.getElementById("h").innerText="Name is required"
+            h.style.color="red"
+        }
+        else if(h2.length<8){
+            document.getElementById("h").innerText="Name must be 8 characters"
+            h.style.color="red"
+        }
+        else{
+            document.getElementById("h").innerText=""
+        }
+        let k2=document.getElementById("k1").value
+        // console.log(h2)
+        if(k2==""){
+            document.getElementById("k").innerText="Email is required"
+            k.style.color="red"
+        }
+        else{
+            document.getElementById("k").innerText=""
+        }
+        let i3=document.getElementById("i1").value
+        // console.log(h2)
+        if(i3==""){
+            document.getElementById("i").innerText="Number is required"
+            i.style.color="red"
+        }
+        else if(i3.length<10){
+            document.getElementById("i").innerText="Number must be 10 digits"
+            i.style.color="red"
+        }
+        else{
+            document.getElementById("i").innerText=""
+        }
+        let j3=document.getElementById("j1").value
+        var values=/[0-9]/g;
+        var small_letters=/[a-z]/g;
+        var capital_letters=/[A-Z]/g;
+        if(j3.match(values)&&j3.match(small_letters)&&j3.match(capital_letters))
+        {
+                 document.getElementById("j").innerText="";
+        }
+        else if(j3.match(values)&&j3.match(small_letters)){
+            document.getElementById("j").innerText="must need capital letters";
+        }
+        else if(j3.match(small_letters)&&j3.match(capital_letters)){
+            document.getElementById("j").innerText="must need numbers";
+        }
+        else if(j3.match(values)&&j3.match(capital_letters)){
+            document.getElementById("j").innerText="must need small letters";
+        }
+        else if(j3.match(values)){
+            document.getElementById("j").innerText="must need capital letters and small letters";
+        }
+        else if(j3.match(small_letters)){
+            document.getElementById("j").innerText="must need capital letters and numbers";
+        }
+        else if(j3.match(capital_letters)){
+            document.getElementById("j").innerText="must need small letters and numbers";
+        }
+        else {
+            document.getElementById("j").innerText="Password must contains capital letters,small letters and numbers";
+            document.getElementById("j").style.color="red";
+        }
+        if(j3.length<8){
+            document.getElementById("j").innerText="Password must be 8 characters"
+            j.style.color="red"
+        }
+
+       }
+    </script>
+</body>
+</html>

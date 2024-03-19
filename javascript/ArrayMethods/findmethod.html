@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>findAge()</title>
+</head>
+<body>
+    <h1><center>Find()Method in JS</center></h1>
+    <hr>
+    <script>
+        //Arrow Function
+        let courses = ['html','css','javascript','bootstrap'];
+        let getcourse = courses.find((courses,index)=>{
+            return courses.endsWith('t')
+        })
+        console.log(getcourse);
+        //Anonymous Function
+        let sub =['html','css','javascript','bootstrap'];
+        let getsubs = sub.find(function(sub,index){
+            return sub.startsWith('b');
+        })
+        console.log(getsubs);
+        //normal function
+        let name=['Varshi','ganga','bhagii','asha'];
+        let a=name.find(findname)
+       function findname(name,index){
+       return name.startsWith('b')
+    }
+       console.log(a);
+
+    </script>
+</body>
+</html>

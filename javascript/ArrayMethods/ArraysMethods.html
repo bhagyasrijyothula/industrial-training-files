@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array Methods</title>
+</head>
+<body>
+    <h1>Array Methods in JavaScript</h1>
+    <ul>
+        <li>Push</li>
+        <li>pop</li>
+        <li>shift</li>
+        <li>unshift</li>
+        <li>concat</li>
+        <li>slice</li>
+        <li>splice</li>
+        <li>indexOf</li>
+        <li>sort</li>
+    </ul>
+    <script>
+        let fruits=['Apple','grapes','guava','orange'];
+        let vegetables=['patato','carrot','radish','tomato'];
+        console.log(fruits);
+        //Push-it adds a new value
+        fruits.push('banana')
+        console.log(fruits);
+        //pop- it deletes a last value of the array
+        fruits.pop()
+        console.log(fruits);
+        //shift-it deletes the first value of array
+        fruits.shift()
+        console.log(fruits);
+        //unshift- it adds a new value to the first place of the array
+        console.log(vegetables)
+        vegetables.unshift('beans');
+        console.log(vegetables);
+        //concat-it merges the 2 or more arrays
+       let var1= fruits.concat(vegetables);
+        console.log(var1)
+        //slice-
+        let var2=var1.slice(2,6)
+        console.log(var2)
+        //splice-
+        fruits.splice(1,2,'kiwi','greenapple');
+        console.log(fruits)
+        //indexOf
+        fruits.indexOf('kiwi');
+        console.log(fruits)
+        
+        //sort
+        fruits.sort()
+        console.log(fruits)
+        vegetables.sort()
+        console.log(vegetables)
+
+    </script>
+</body>
+</html>

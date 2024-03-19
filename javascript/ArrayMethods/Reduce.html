@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reduce</title>
+</head>
+<body>
+    <h1><center>Reduce () in JS</center></h1>
+    <script>
+        // reduce-using anonymous function
+        let nums=[3,60,9];
+        let sum=nums.reduce(function(acc,ele){
+            return acc + ele
+        },0);
+        console.log(sum);
+        let max_val=nums.reduce(function(acc,ele,i,arr){
+            if(acc > ele){
+                return acc
+            }else{
+                return ele
+            }
+        },nums[0]);
+        console.log(max_val);
+        let min_val=nums.reduce(function(acc,ele,i,arr){
+            if(acc < ele){
+                return acc
+            }else{
+                return ele
+            }
+        },nums[0]);
+        console.log(min_val);
+        //arrow function
+        let n=[345,23,12];
+        let add=n.reduce((acc,ele)=>{
+           return acc + ele
+         },0);
+         console.log(add);
+         let max1_val=nums.reduce((acc,ele,i,arr)=>{
+            if(acc > ele){
+                return acc
+            }else{
+                return ele
+            }
+        },nums[0]);
+        console.log(max1_val);
+        let min1_val=nums.reduce((acc,ele,i,arr)=>{
+            if(acc < ele){
+                return acc
+            }else{
+                return ele
+            }
+        },nums[0]);
+        console.log(min1_val);
+    </script>
+</body>
+</html>

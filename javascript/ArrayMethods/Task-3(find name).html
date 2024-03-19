@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task-3</title>
+</head>
+<body>
+    <h1><u>Find The Name:-</u></h1>
+    Enter the name:<input type="text" id="a">
+    <button onclick="check()">Find name</button>
+    <p id="sam"></p>
+    <script>
+        let names=["BhagyaSri","Priya","Ganga","Varshi","Ashasri",]
+        function check()
+        {
+            let value=document.getElementById("a").value;
+            let b=names.find((ele,i)=>
+            {
+                return ele.startsWith(value);
+            })
+            document.getElementById('sam').innerText=b;
+
+            
+        }
+    </script>
+</body>
+</html>
+
+

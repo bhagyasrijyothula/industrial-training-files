@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>some()</title>
+</head>
+<body>
+    <h1><center>Some()in Js</center></h1>
+    <hr>
+    <script>
+        
+        //Arrow Function
+        let trainees = ['bhagi@gmail.com','varshi@gmail.com','ganga@gmail.com','asha@gmail.com'];
+        let email_check = trainees.some((email,i,arr)=>{
+            return email =='bhagi@gmail.com';
+        })
+        console.log(email_check);
+
+        //Anonymous Function
+        let mails= ['bhagi@gmail.com','varshi@gmail.com','ganga@gmail.com','asha@gmail.com'];
+        let mail_check = mails.some(function(mail,i,arr){
+            return mail=='ganga@gmail.com'
+        })
+        console.log(mail_check);
+
+        // Normal Function
+        let frdmails=['bhagi@gmail.com','varshi@gmail.com','ganga@gmail.com','asha@gmail.com'];
+        let frdmail_check=frdmails.some(findmail)
+        function findmail(mail,i,arr){
+        return mail=='varshi1@gmail.com';
+     }
+        console.log(frdmail_check);
+
+    </script>
+</body>
+</html>

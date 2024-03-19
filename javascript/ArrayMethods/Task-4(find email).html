@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task-4</title>
+</head>
+<body>
+    Enter email:<input type="email" id="a">
+    <button onclick="check()">OK</button>
+    <p id="b"></p>
+    <script>
+        let emails=["bhagyasri@gmail.com","santhi@gmail.com","lakshmi@gmail.com","manu@gmail.com"];
+        function check()
+        {
+            let e=document.getElementById("a").value;
+            console.log(e);
+            let email=emails.some((ele,i)=>
+            {
+                 console.log(ele)
+                 return e==ele;
+            })
+            if(email==true)
+            {
+                document.getElementById("b").innerText="Email already exists";
+                document.getElementById("b").style.color="red";
+
+            }
+            else{
+                
+                document.getElementById("b").innerText="Email created";
+                document.getElementById("b").style.color="green";
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1><center>FOREach()In JS</center></h1>
+    <hr>
+    <script>
+         // for each
+      //let salaries = [40000,25000,30000];
+      //console.log(salaries);
+      //arrow function
+      //salaries.forEach((amount,index)=>{
+        //var hike = amount/10;
+        //console.log(hike);
+        //salaries[index]= amount+hike;
+      //});
+      //console.log(salaries);
+
+      let Birth=[1998,2000,2002,2004,2006,2008,2010];
+        //anonymous function
+        let ages=Birth.map(function(year,index,arr){
+            let age=2024-year;
+            return "Current age is: "+age;
+        })
+        console.log(ages)
+    </script>
+</body>
+</html>

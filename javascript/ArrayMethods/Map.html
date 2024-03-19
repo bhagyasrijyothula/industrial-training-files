@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <h1><center>Map()in JS</center></h1>
+  <hr>
+    <script>
+        //map function
+        let birthyear=[1998,1999,2000,2003,2004,2005,2006,2007]
+        let a=birthyear.map(findAge)
+       function findAge(year,index,arr){
+        console.log(" current element is "+year)
+        console.log(" current index position is "+index)
+        console.log(" current array is "+arr)
+       let age= 2024-year;
+        return "Current age is"+age;
+    }
+       console.table(birthyear);
+      console.table(a);
+      //anonymuos function
+      let birthyears=[1998,1999,2000,2003,2004,2005,2006,2007];
+      let ages=birthyears.map(function(year,index,arr){
+        let age=2024-year;
+        return "Current age is"+age;
+      })
+      console.log(ages)
+      
+
+     
+    </script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+</head>
+<body>
+    <div id="result"></div>
+    <script>
+        function checkVariable(variable) {
+            if (variable === undefined) {
+                return "Variable is undefined";
+            } 
+            else if (variable === null) {
+                return "Variable is null";
+            } 
+            else {
+                return "Variable is defined and not null";
+            }
+        }
+        // Example variable
+        var testVar=50;
+        // Check the variable and display the result
+        document.getElementById("result").innerHTML = checkVariable(testVar);
+    </script>
+</body>
+</html>

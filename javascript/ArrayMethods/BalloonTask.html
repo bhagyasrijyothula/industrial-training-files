@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Balloon Task</title>
+    <style>
+        .a{
+            height: 500px;
+            width: 1000px;
+            background-color: white;
+            border-radius: 30px;
+            border: 2px solid white;
+            position: relative;
+            top: 100px;
+        }
+        body{
+            background-color: whitesmoke;
+        }
+        button{
+            padding: 5px 15px;
+            background-color: white;
+            border:2px solid black;
+            border-radius: 5px;
+            box-shadow: 3px 3px 3px  rgb(58, 58, 58);
+            margin-top: 100px;
+         }
+    </style>
+</head>
+<body>
+   <center>
+    <div class="a">
+        <h1 style="color: grey;"><center>Hello JavaScript!</center></h1>
+        <img src="../ballon1.jpg" height="auto" margin-top="20px" width="200px"  alt="img" id="a"><br><br><br>
+        <!-- <button onclick="document.getElementById('a').src='../ballon1.jpg'" ondblclick="document.getElementById('a').src='../ballon2.jpg'" >Bulloon</button> -->
+        <button onclick="keypress()" ondblclick="keyup()">Ballon</button>
+   </div>
+   </center>
+   <script>
+    function keypress(){
+        document.getElementById('a').src='../ballon1.jpg';
+
+         }
+         function keyup(){
+            document.getElementById('a').src='../ballon2.jpg';
+
+         }
+   </script>
+</body>
+</html>

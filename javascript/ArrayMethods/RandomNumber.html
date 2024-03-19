@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Task</title>
+</head>
+<body>
+    <style>
+        div{
+            height: 300px;
+            width: 300px;
+            border: 5px solid black;
+            padding: 10px;
+        }
+        button{
+            background-color: chartreuse;
+        }
+    </style>
+    <div>
+        <h1 style="color:red">Guess the Number Game</h1>
+        <p style="color:skyblue; font-weight:bold; font: size 30px;">Guess a number Between 1 to 10:</p>
+        <input type="text" placeholder="Enter a Number " id="val">
+        <button onclick="submit()" id="a">Submit Guess</button>
+        <p id="r"></p>
+    </div>
+    <script>
+        function submit(){
+            let val=document.getElementById('val').value;
+            let inp=Math.floor(Math.random()*10);
+            console.log(inp)
+            if(inp==val){
+                document.getElementById('r').innerText="Yes found it! You win the Game";
+                //alert("You did it!");
+            }
+            else{
+                document.getElementById('r').innerText="Sorry Try Again!";
+               //
+                alert("sorry try Agai!")
+
+            }
+            
+           
+        }
+       
+    </script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Every()</title>
+</head>
+<body>
+    <h1><center>Every() in JS</center></h1>
+    <hr>
+    <script>
+        //Arrow Function
+
+        let student_marks= [67,45,56,36,89,43,98];
+        let final_result= student_marks.every((score,i)=>{
+            console.log(score);
+            return score > 35;
+        })
+        console.log(final_result);
+
+        //Anonymous Function
+        let marks =[67,44,56,99,89,34,98];
+        let result= marks.every(function(score,i){
+            console.log(score);
+            return score > 35;
+        })
+        console.log(result);
+
+        //Normal Function
+        let stdmarks =[67,45,56,93,89,35,98];
+        let results= stdmarks.every(func1)
+           function func1(score,i){
+            console.log(score);
+            return score > 35;
+        }
+        console.log(results);
+
+
+    </script>
+</body>
+</html>

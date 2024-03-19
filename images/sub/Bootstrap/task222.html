@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bootstrap 4 Responsive Dashboard Card Design</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <style>
+        .box1 {
+            position: relative;
+            color: white;
+            padding: 20px 10px 40px;
+            margin: 20px 0px;
+        }
+        .box1 .inner {
+            padding: 5px 10px 0 10px;
+        }
+        .box1 h3 {
+            font-size: 27px;
+            margin: 0 0 8px 0;
+            padding: 0;
+            text-align: left;
+        }
+        .box1 p {
+            font-size: 15px;
+        }
+        .box1 .icon {
+            position: absolute;
+            top: auto;
+            bottom: 5px;
+            right: 5px;
+            z-index: 0;
+            font-size: 72px;
+            color: black;
+        }
+        .box1 .box1-footer {
+            position: absolute;
+            left: 0px;
+            bottom: 0px;
+            text-align: center;
+            padding: 3px 0;
+            color: white;
+            background: inherit;
+            width: 100%;
+            text-decoration: none;
+        }
+        .bg-blue {
+            background-color: skyblue;
+        }
+        .bg-green {
+            background-color: lightgreen;
+        }
+        .bg-orange {
+            background-color: orange;
+        }
+        .bg-red {
+            background-color: red;
+        }
+        </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-sm-6 offset-md-2">
+                <div class="box1 bg-blue">
+                    <div class="inner">
+                        <h3> 13436 </h3>
+                        <p> Student Strength </p>
+                    </div>
+                    <div class="icon">
+                        <i class="fa fa-graduation-cap" ></i>
+                    </div>
+                    <a href="#" class="box1-footer">View More <i class="fa fa-arrow-circle-right"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="box1 bg-green">
+                    <div class="inner">
+                        <h3> ₹185358 </h3>
+                        <p> Today’s Collection </p>
+                    </div>
+                    <div class="icon">
+                        <i class="fa fa-money" aria-hidden="true"></i>
+                    </div>
+                    <a href="#" class="box1-footer">View More <i class="fa fa-arrow-circle-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-sm-6 offset-md-2">
+                <div class="box1 bg-orange">
+                    <div class="inner">
+                        <h3> 5464 </h3>
+                        <p> New Admissions </p>
+                    </div>
+                    <div class="icon">
+                        <i class="fa fa-user-plus" aria-hidden="true"></i>
+                    </div>
+                    <a href="#" class="box1-footer">View More <i class="fa fa-arrow-circle-right"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="box1 bg-red">
+                    <div class="inner">
+                        <h3> 723 </h3>
+                        <p> Faculty Strength </p>
+                    </div>
+                    <div class="icon">
+                        <i class="fa fa-users"></i>
+                    </div>
+                    <a href="#" class="box1-footer">View More <i class="fa fa-arrow-circle-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

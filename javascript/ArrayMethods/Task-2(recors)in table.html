@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 2</title>
+</head>
+<body><center>
+    <table border="1px" >
+        <tbody id="b">
+               <tr>
+                <th>Roll</th>
+                <th>College</th>
+
+               </tr>
+        </tbody>
+    </table>
+    <script>
+        let a=[{
+
+            roll:55,
+            college:"AEC"
+            },
+            {
+                roll:40,
+                college:"ACET"
+            },
+            {
+                roll:62,
+                college:"ACET"
+            },
+            {
+                roll:20,
+                college:"AEC"
+            }
+    ]
+    let b=a.filter((ele,i,arr)=>
+    {
+        return a[i].college=="AEC";
+       // return a[i].roll;
+    })
+    // console.table(b);
+    let bdy=document.getElementById("b");
+      for(let i=0;i<b.length;i++)
+    {
+    
+            var newRow = bdy.insertRow();
+            var cell1 = newRow.insertCell(0);
+            var cell2 = newRow.insertCell(1);
+            cell1.innerHTML=b[i].roll ;
+            cell2.innerHTML=b[i].college;
+     } 
+    </script></center>
+</body>
+</html>

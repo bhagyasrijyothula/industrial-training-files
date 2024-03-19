@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StringMethods</title>
+</head>
+<body>
+    <center><h1>String Methods in javascript</h1></center>
+    <script type="text/javascript">
+        function StrMethods(str_name){
+            document.write('<br>'+str_name+'<br>'+"<br>")
+        }
+        let str1="Bhagi";
+        let str2="Santhi Priya";
+        //let str3="Chinnu";
+        StrMethods("original Value:"+str1);
+        //length of the original string
+        StrMethods("Length of:"+str1.length);
+        //find out the character position of string
+        StrMethods("Char At:"+str1.charAt(1));
+        //find out the index position of the character
+        StrMethods("Index Of:"+str1.indexOf('B'));
+        //find out the last index position of the character
+        StrMethods("LastIndex Of:"+str1.lastIndexOf('i'));
+        //concat of 2 strings
+        StrMethods("Concatination of 2 strings:"+str1.concat(str2));
+        //convert to lowercase
+        StrMethods("LowerCase of String:"+str1.toLowerCase());
+        //convert to uppercase
+        StrMethods("UpperCase of String:"+str1.toUpperCase());
+        //removing the space
+        StrMethods("Trim of String:"+str1.trim());
+        //return boolean Values
+        StrMethods("String Starts With:"+str1.startsWith('B'));
+        StrMethods("String Ends With:"+str1.endsWith('i'));
+        //split the string
+        StrMethods("String Split:"+str1.split(''));
+        //convert String into Array
+        console.log(str1.split(""))
+        let newstr='Bhagya&sri&jyothula';
+        console.log(newstr.split("&"));
+        let newstr1='Bhagya,sri,jyothula';
+        console.log(newstr1.split(","));
+        //return Boolean Values
+        StrMethods('Starswith of String='+str1.startsWith('B'));
+        //slice Method
+        StrMethods("Slice of String is:"+str2.slice(1,4));
+        StrMethods("Slice of String is:"+str2.slice(-1));
+        StrMethods("Slice of String is:"+str2.slice(-1,-7));
+        //subString Methods
+        StrMethods("Substring of String is:"+str2.substring(1,4));
+        //substr Method
+        StrMethods("Substr of String is:"+str2.substr(2,8));
+        //Includes Method
+        StrMethods('Includes of String'+str2.includes())
+
+
+
+
+
+
+        
+
+        
+    
+
+    </script>
+</body>
+</html>

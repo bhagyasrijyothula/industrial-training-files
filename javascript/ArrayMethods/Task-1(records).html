@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 1</title>
+</head>
+<body><center>
+    <script>
+        let a=[{
+            roll:55,
+            college:"AEC"
+            },
+            {
+                roll:40,
+                college:"ACET"
+            },
+            {
+                roll:62,
+                college:"ACET"
+            },
+            {
+                roll:20,
+                college:"AEC"
+            }
+    ]
+    let b=a.filter((ele,i,arr)=>
+    {
+        return a[i].college=="AEC";
+    })
+    for(let i=0;i<b.length;i++)
+    {
+        document.write('<br>Roll no: '+b[i].roll);
+        document.write('<br>College: '+b[i].college);
+        document.write("<br>")
+     
+    }
+    </script>
+</body></center>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1><center>Filter()in JS</center></h1>
+    <script>
+        //Filter -using Arrow=> function
+         let nums=[2,3,68,9,67,45,34];
+        let Even_nums=nums.filter((ele,i)=>{
+            return ele%2==0;
+        })
+        console.log(Even_nums);
+        let Odd_nums=nums.filter((ele,i)=>{
+            return ele%2!=0;
+        })
+        console.log(Odd_nums);
+        //Anonymous function
+        let num=[2,6,89,56,234,788,876,9,77,53];
+        let even=num.filter(function(ele,i){
+            return ele%2==0;
+        })
+        console.log(even);
+        let odd=num.filter(function(ele,i){
+            return ele%2!=0;
+        })
+        console.log(odd);
+
+    </script>
+</body>
+</html>
